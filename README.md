@@ -80,4 +80,21 @@ The pane let's you compare an image before vs. after. You can move the bar in th
 
 ## Image carousel
 
+The image carousel shows one image after the other with a slide in effect. The images repeat infinitely.
+
+### Key Features
+
+-   Transition animation for change of image through adding & removing classes
+-   Each image shows 3 seconds before being replaced by the next image
+-   User can click on indicator to slide in requested image from right immediately
+-   User cannot request image through click on indicator while transition is happening || requested image is already on screen
+
+### Languages, Libraries, Frameworks, Tools
+
+-   HTML
+-   CSS
+-   JavaScript
+
+[Link to CodePen](https://codepen.io/ggwoods/pen/gOpWdmg)
+
 ## Incremental search
