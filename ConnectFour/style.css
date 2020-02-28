@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f7f5;
+}
+
+.header,
+.control,
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header .checker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.4em;
+}
+
+.control {
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+#start {
+    background-color: tomato;
+    color: aliceblue;
+    font-size: 1.3em;
+    border-radius: 15px;
+    padding: 6px 12px;
+    border: none;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(238, 238, 238, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(238, 238, 238, 1);
+    box-shadow: 5px 5px 5px 0px rgba(238, 238, 238, 1);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.d-none {
+    visibility: hidden;
+}
+
+#message {
+    min-height: 25px;
+    font-size: 1.2em;
+}
+
+.choose {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 4em;
+    color: #262f42;
+    margin: 0 20px;
+}
+
+.checker {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+#start:focus {
+    outline: none;
+}
+
+.choose .row {
+    display: flex;
+    padding: 0;
+    position: relative;
+}
+
+.choose .checker {
+    margin: 0 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(238, 238, 238, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(238, 238, 238, 1);
+    box-shadow: 5px 5px 5px 0px rgba(238, 238, 238, 1);
+    transform: translateY(-500%) scale(1) rotateY(1500deg);
+}
+
+.choose .checker.animated {
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.35) 1s;
+    transform: translateY(0%);
+}
+
+.choose .checker:hover,
+#start:hover {
+    transform: scale(0.92) translateY(10%);
+}
+
+.grey {
+    background-color: rgba(175, 151, 157, 0.4);
+}
+
+.gold {
+    background-color: rgb(235, 206, 43);
+}
+
+.red {
+    background-color: rgb(194, 15, 60);
+}
+
+.board {
+    /* background-color: aliceblue; */
+    border: 10px solid #262f42;
+    display: flex;
+}
+
+.board .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100%;
+    background-color: #262f42;
+}
+
+.slot {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
