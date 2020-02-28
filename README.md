@@ -98,3 +98,24 @@ The image carousel shows one image after the other with a slide in effect. The i
 [Link to CodePen](https://codepen.io/ggwoods/pen/gOpWdmg)
 
 ## Incremental search
+
+The incremental search let's you search for a country through the input. Start typing and you will get max. four countries matching your input.
+
+### Key Features
+
+-   Ajax request for search results to external API
+-   Auto-display max. 4 results matching the user input
+-   Show "no results" if there are no matches
+-   Choose result through mouse click or `arrow key + enter`
+-   Show matching results only if input field is focussed
+-   Keep search result highlighted on focus -> blur -> focus
+
+### Languages, Libraries, Frameworks, Tools
+
+-   HTML
+-   CSS
+-   JavaScript
+-   JQuery
+-   Jquery.ajax()
+
+[Link to CodePen](https://codepen.io/ggwoods/pen/WNvjgyJ)

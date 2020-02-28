@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 40vh;
+}
+
+h1 {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px lightblue solid;
+    min-width: 250px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(204, 204, 204, 1);
+    box-shadow: 3px 3px 5px 0px rgba(204, 204, 204, 1);
+}
+
+input:focus {
+    border-radius: 10px;
+    border: 2px tomato solid;
+    outline: none;
+}
+
+.results {
+    width: 230px;
+}
+
+.country {
+    padding: 5px 5px;
+}
+
+.country-highlight {
+    background-color: salmon;
+    color: darkblue;
+}
