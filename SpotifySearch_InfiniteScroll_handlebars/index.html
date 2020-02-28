@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify Search</title>
+    <link rel="shortcut icon" href="spotify-brands.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1><img src="spotify-brands.svg" alt="" width="20px"><span> Spotify</span> SEARCH</h1>
+    </header>
+
+    <main class="container">
+        <div id="search">
+            <input type="text" name="user-input" placeholder="Search...">
+            <select name="" class="artist-or-album">
+                <option id="artist">Artist</option>
+                <option id="album">Album</option>
+            </select>
+            <button class="submit-btn">SEARCH</button>
+        </div>
+        <div class="resultsMessage"></div>
+        <div id="results-container">
+            <script id="results" type="text/x-handlebars-template">
+                {{#items}}
+                <div class='result'>
+                    <div class='logo-container'>
+                        <img class='logo' src=
+                            {{#unless images/0/url}}
+                                'https://png2.kisspng.com/sh/4f9ae6bf5d80c28a769265b1b3d0616c/L0KzQYm3WMI4N6l2j5H0aYP2gLBuTfxwb5CyiOR4ZIXmhH7rhgNqb58yeuRqbnSwd8Pshf4uc5ZzkttuLXHwgH7okP90NaQye9H7bnX1PcT3jCRqbqoyhNHwbz3pgrF0Tfh1dZ0ye58AYki3RrPphMY5QWdpUJCDMUO0Qoa6U8E2O2Y5SKYEOEm3Qom7TwBvbz==/kisspng-logo-product-design-brand-green-kenzie-amp-apos-s-corner-spotify-logo-from-html-c-5b846bbd6896d8.8131253315354049894284.png'
+                            {{/unless}}
+                            {{images/0/url}}>
+                    </div>
+                    <h2>
+                        <a href={{href}}>{{name}}</a>
+                    </h2>
+                </div>
+                {{/items}}
+            </script>
+        </div>
+        <div class="load-more"></div>
+        
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
