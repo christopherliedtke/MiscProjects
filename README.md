@@ -62,6 +62,22 @@ The ticker starts on page load and runs infinite. Headlines disappearing from sc
 
 ## Pane
 
+The pane let's you compare an image before vs. after. You can move the bar in the middle to reveal more of one or the other image.
+
+### Key Features
+
+-   Mouse down on middle bar let's you resize the top image
+-   On mouse up the size of the top image stays at its last value
+
+### Languages, Libraries, Frameworks, Tools
+
+-   HTML
+-   CSS
+-   JavaScript
+-   JQuery
+
+[Link to CodePen](https://codepen.io/ggwoods/pen/QWbvBeM)
+
 ## Image carousel
 
 ## Incremental search
