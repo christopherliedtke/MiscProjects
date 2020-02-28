@@ -27,7 +27,7 @@ Spotify search by artist || album through Spotify API.
 
 -   Ajax request to spotify API for artists||albums on submit
 -   Add "Load More" button at bottom of search results
--   Add ?scroll=infinite to url -> infinite scroll as long as more search results exist
+-   Add `?scroll=infinite` to url -> infinite scroll as long as more search results exist
 -   Add content to HTML through handlebars.js
 
 ### Languages, Libraries, Frameworks, Tools
@@ -41,10 +41,27 @@ Spotify search by artist || album through Spotify API.
 
 [Link to CodePen](https://codepen.io/ggwoods/pen/OJVmwyK)
 
+## Infinite Ticker
+
+The ticker starts on page load and runs infinite. Headlines disappearing from screen are appended to the end again.
+
+### Key Features
+
+-   Ticker with pure jquery and requestAnimationFrame
+-   Append headlines at end of ticker after disappearing to the left on the screen
+-   Stop ticker on mouse enter headline && continue ticker on mouse leave
+
+### Languages, Libraries, Frameworks, Tools
+
+-   HTML
+-   CSS
+-   JavaScript
+-   JQuery
+
+[Link to CodePen](https://codepen.io/ggwoods/pen/LYVyBmM)
+
 ## Pane
 
 ## Image carousel
 
 ## Incremental search
-
-## Ticker
