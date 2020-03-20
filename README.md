@@ -78,6 +78,8 @@ The pane let's you compare an image before vs. after. You can move the bar in th
 -   JavaScript
 -   JQuery
 
+![alt text](Pane/pane.gif 'Working Example of Image Pane')
+
 [Link to CodePen](https://codepen.io/ggwoods/pen/QWbvBeM)
 
 ## Image carousel
