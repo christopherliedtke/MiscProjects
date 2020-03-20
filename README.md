@@ -124,4 +124,6 @@ The incremental search let's you search for a country through the input. Start t
 -   JQuery
 -   Jquery.ajax()
 
+![alt text](IncrementalSearch/incrementalSearch.gif 'Working Example of Incremental Search')
+
 [Link to CodePen](https://codepen.io/ggwoods/pen/WNvjgyJ)
