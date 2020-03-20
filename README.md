@@ -97,6 +97,8 @@ The image carousel shows one image after the other with a slide in effect. The i
 -   CSS
 -   JavaScript
 
+![alt text](ImageCarousel/imageCarousel2.gif 'Working Example of Image Carousel')
+
 [Link to CodePen](https://codepen.io/ggwoods/pen/gOpWdmg)
 
 ## Incremental search
