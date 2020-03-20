@@ -60,6 +60,8 @@ The ticker starts on page load and runs infinite. Headlines disappearing from sc
 -   JavaScript
 -   JQuery
 
+![alt text](Ticker/ticker2.gif 'Working Example of Infinite Ticker')
+
 [Link to CodePen](https://codepen.io/ggwoods/pen/LYVyBmM)
 
 ## Pane
