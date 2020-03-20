@@ -41,6 +41,8 @@ Spotify search by artist || album through Spotify API.
 -   Jquery.ajax()
 -   Handlebars.js
 
+![alt text](SpotifySearch_InfiniteScroll_handlebars\spotifySearch2.gif 'Working Example of Infinite Scroll with Spotify API')
+
 [Link to CodePen](https://codepen.io/ggwoods/pen/OJVmwyK)
 
 ## Infinite Ticker
