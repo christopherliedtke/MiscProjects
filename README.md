@@ -10,12 +10,14 @@
 -   Detection of draw
 -   Make move by clicking a checker on top through event handler
 
-### Languages, Libraries, Frameworks, Tools
+### Technologies
 
 -   HTML
 -   CSS
 -   JavaScript
 -   JQuery
+
+![alt text](ConnectFour/connectFour.gif 'Connect Four Gameplay')
 
 [Link to CodePen](https://codepen.io/ggwoods/pen/mdJmKzG)
 
@@ -30,7 +32,7 @@ Spotify search by artist || album through Spotify API.
 -   Add `?scroll=infinite` to url -> infinite scroll as long as more search results exist
 -   Add content to HTML through handlebars.js
 
-### Languages, Libraries, Frameworks, Tools
+### Technologies
 
 -   HTML
 -   CSS
@@ -51,7 +53,7 @@ The ticker starts on page load and runs infinite. Headlines disappearing from sc
 -   Append headlines at end of ticker after disappearing to the left on the screen
 -   Stop ticker on mouse enter headline && continue ticker on mouse leave
 
-### Languages, Libraries, Frameworks, Tools
+### Technologies
 
 -   HTML
 -   CSS
@@ -69,7 +71,7 @@ The pane let's you compare an image before vs. after. You can move the bar in th
 -   Mouse down on middle bar let's you resize the top image
 -   On mouse up the size of the top image stays at its last value
 
-### Languages, Libraries, Frameworks, Tools
+### Technologies
 
 -   HTML
 -   CSS
@@ -89,7 +91,7 @@ The image carousel shows one image after the other with a slide in effect. The i
 -   User can click on indicator to slide in requested image from right immediately
 -   User cannot request image through click on indicator while transition is happening || requested image is already on screen
 
-### Languages, Libraries, Frameworks, Tools
+### Technologies
 
 -   HTML
 -   CSS
@@ -110,7 +112,7 @@ The incremental search let's you search for a country through the input. Start t
 -   Show matching results only if input field is focussed
 -   Keep search result highlighted on focus -> blur -> focus
 
-### Languages, Libraries, Frameworks, Tools
+### Technologies
 
 -   HTML
 -   CSS
